@@ -1,0 +1,32 @@
+{
+  "name": "@wbc-ui2/dataviewer",
+  "version": "1.0.0-r01",
+  "main": "dist/dataviewer2.umd.js",
+  "module": "dist/dataviewer2.es.js",
+  "sideEffects": true,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "logo/"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "next"
+  },
+  "dependencies": {
+    "vue-json-viewer": "^2.2.22"
+  },
+  "peerDependencies": {
+    "vue": "^2.7.16",
+    "@wbc-ui2/core": "1.0.0-r01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbc-ui2/dataviewer.git"
+  },
+  "homepage": "https://github.com/wbc-ui2/dataviewer#readme",
+  "bugs": {
+    "url": "https://github.com/wbc-ui2/dataviewer/issues"
+  }
+}
