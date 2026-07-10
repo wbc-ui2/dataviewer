@@ -1,6 +1,6 @@
 {
   "name": "@wbc-ui2/dataviewer",
-  "version": "1.0.0-r01",
+  "version": "1.0.0-r02",
   "main": "dist/dataviewer2.umd.js",
   "module": "dist/dataviewer2.es.js",
   "sideEffects": true,
@@ -19,7 +19,7 @@
   },
   "peerDependencies": {
     "vue": "^2.7.16",
-    "@wbc-ui2/core": "1.0.0-r01"
+    "@wbc-ui2/core": "1.0.0-r02"
   },
   "repository": {
     "type": "git",
